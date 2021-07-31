@@ -5,7 +5,7 @@ function MainPage(){
     const [state, setstate] = useState()
     useEffect(() => {
         const apiss = Axios.create({
-            baseURL: 'http://localhost:3005/api',
+            baseURL: 'https://phable-care-backend.herokuapp.com/api',
         })
         // var body=JSON.stringify({ state, body_fat,activity_levels});
         // console.log("uploading",body,apiss)
